@@ -1,0 +1,107 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ebebeb;
+}
+h1{
+    font-size: 64px;
+    font-weight: 200;
+}
+h2{
+    font-size: 48px;
+    font-weight: 800;
+}
+h3{
+    font-size: 30px;
+    font-weight: 400;
+}
+h4{
+    font-size: 24px;
+    font-weight: 800;
+}
+h5{
+    font-size: 24px;
+    font-weight: 600;
+}
+h6{
+    font-size: 20px;
+    font-weight: 500;
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+}
+th{
+    color:#fff;
+}
+.highlight{
+    color: #4E9A92;
+}
+#employees img #employee img{
+    width: 100%;
+}
+
+@media (min-width: 960px) {
+    #employees .col-md-3 .well{
+        height: 275px;
+    }
+
+    #movies .col-md-3 img{
+        height: 240px;
+    }
+}
+.jumbotron {
+    background-color: #002D40;
+}
+
+.btn-primary {
+    background-color: #dfa928;
+    border-color: #dfa928;
+}
+.btn-primary:hover {
+    background-color: #B1841B;
+    border-color: #B1841B;
+}
+
+.btn-secondary {
+    background-color: #dfa928;
+    border-color: #dfa928;
+}
+
+.btn-secondary:hover {
+    background-color: #B1841B;
+    border-color: #B1841B;
+}
+
+.modal-content {
+    background-color: #002D40;
+}
+.modal-title {
+    color: #4E9A92;
+}
+
+.modal-header {
+    border-bottom: 1px solid #4e9a92;
+}
+
+.modal-footer {
+    border-top: 1px solid #4e9a92;
+}
+
+
+.well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #002D40;
+    border: 1px solid #002D40;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+}
+.main-title {
+    color: #4E9A92;
+}
+.modal-t {
+    font-size: 17px;
+    color: #4e9a92;
+}
